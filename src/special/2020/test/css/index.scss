@@ -1,0 +1,32 @@
+body{
+	background:url('../../images/PC.png');
+}
+.a{
+	@include wh(100%);
+}
+
+.aaa{
+	@include wh(200);
+	@include bgc(red);
+	@include flc(18,32,#fff);
+	@include ac();
+}
+
+.a{
+	.c{
+		@include wh(200);
+	}
+}
+
+.c{
+	@include h(200);
+}
+
+.ac{
+	@include wh(500);
+}
+
+
+.c{
+	@include wh(300);
+}
